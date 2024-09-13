@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form New</title>
+</head>
+<body>
+    <form action="#"></form>
+    <label for="fname">Name: </label>
+    <input type="text" name="fname" id="fname"> <br><br> <!-- br ka use line ko break karne ke liye hota hai-->
+   
+    <label for="subject">Subject: </label>
+    <input type="text" name="subject" id="subject"> <br><br><!-- br ka use line ko break karne ke liye hota hai-->
+    
+    <label for="pass">Password </label>
+    <input type="password" id="pass"> <br><br><!-- br ka use line ko break karne ke liye hota hai-->
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ----input ki help se koi bhi action perform kiya ja sakta hai jaise file upload  ---------> 
+
+<!-- ----input:file or tab press kar do  --------->
+    <input type="file" name="upload file" id="upload file">
+    <br><br>    <!-- br ka use line ko break karne ke liye hota hai-->
+
+    <!-- ----input:submit or tab press kar do  --------->
+    <!-- ----input:radio button kause ap koi bhi ek option ko select karne ke liye karte ho  --------->
+
+    <lable for "male"> Male</lable> <input type="radio" name="gender" id="male"> 
+    <label for="female">Female </label> <input type="radio" name="gender" id="female">
+    <label for="others">Others </label> <input type="radio" name="gender" id="others">
+    <br><br>
+
+<!-- --input:radio tag me name="gender" hai yadi yahan Male or Female ko ek sath use karna hai to name="gender" me gender ki jagah "male" "female" likhna hoga --------->
+<lable for "male"> Male</lable> <input type="radio" name="male" id="male"> 
+    <label for="female">Female </label> <input type="radio" name="female" id="female">
+    <br><br>
+
+<!-- ----input:checkbox ka use multipule option ko select karne liye kar sakte hai  ------------------>
+    <label for="topic">Topic</label>
+    <label for="html">HTML</label><input type="checkbox" name="topic" id="html">
+    <label for="css">CSS</label><input type="checkbox" name="topic" id="css">
+    <label for="java">JAVA</label><input type="checkbox" name="topic" id="java">
+    <br><br>
+
+    <!-- ---------------------------Email create karne ke liye  -------------------------------------->
+    <lable for"mail">Email</lable>  <input type="email" name="mail" id="mail">
+    <br><br>
+    
+    <!-- -----------------------Date Choose karne ke liye ---------------------------------  --------->
+    <label for="calender">Date</label><input type="date" name="calender" id="calender">
+    <br><br>
+    
+        <!-- ----------------------Comments box create karne ke liye  ------------------------------------->
+    <label for="comments"></label>
+    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+    <br><br>
+
+<!-- ---------------------------drop down list create karne ke liye  ----------------------------------->
+    
+    <lable>Drop Down List</lable>
+    <select name="class" id="class">
+    <option value="class 1">Class 1</option>
+    <option value="class 2">Class 2</option>
+    <option value="class 3">Class 3</option>
+
+    </select>
+    <br><br>
+
+    <!-- ----------input:submit or tab press kar do submit button create akrne ke liye----------------------->
+    <input type="Submit" value="Submit Here">
+    <br><br> 
+<!-- ------------------------------------------------------------------------------------------------------ -->
+</body>
+</html>
